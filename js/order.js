@@ -7,9 +7,9 @@
 (function () {
      'use strict';
 
-     // Change this to the cafeteria's WhatsApp number.
+     // The cafeteria's WhatsApp number.
      // Format: country code + number, digits only (no +, spaces or dashes).
-     var WHATSAPP_NUMBER = '919876543210';
+     var WHATSAPP_NUMBER = '919188275573';
 
      var CURRENCY = '₹'; // Rupee sign
      var STORAGE_KEY = 'spices-cart';
