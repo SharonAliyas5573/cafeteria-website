@@ -22,6 +22,9 @@
      <!-- MAIN CSS -->
      <link rel="stylesheet" href="css/templatemo-style.css">
 
+     <!-- MENU / ORDERING CSS -->
+     <link rel="stylesheet" href="css/order.css">
+
 </head>
 
 <body>
@@ -238,124 +241,296 @@
                     <div class="col-md-12 col-sm-12">
                          <div class="section-title wow fadeInUp" data-wow-delay="0.1s">
                               <h2>Our Menus</h2>
-                              <h4>Tea Time &amp; Dining</h4>
+                              <h4>Pick your favourites &amp; order on WhatsApp</h4>
                          </div>
                     </div>
 
-                    <div class="col-md-4 col-sm-6">
-                         <!-- MENU THUMB -->
-                         <div class="menu-thumb">
-                              <a href="images/pexels-cottonbro-studio-4427655.jpg" class="image-popup" title="Shawarma">
-                                   <img src="images/pexels-cottonbro-studio-4427655.jpg" class="img-responsive" alt="">
+                    <!-- CATEGORY FILTER -->
+                    <div class="col-md-12 col-sm-12">
+                         <div class="menu-filter wow fadeInUp" data-wow-delay="0.2s">
+                              <button type="button" class="active" data-filter="all">All</button>
+                              <button type="button" data-filter="breakfast">Breakfast</button>
+                              <button type="button" data-filter="snacks">Snacks</button>
+                              <button type="button" data-filter="main">Main Course</button>
+                         </div>
+                    </div>
 
-                                   <div class="menu-info">
-                                        <div class="menu-item">
-                                             <h3>Shawarma</h3>
-                                             <p>kubbus / chicken / Sausage</p>
-                                        </div>
-                                        <div class="menu-price">
-                                             <span>₹70</span>
-                                        </div>
+                    <!-- FOOD ITEM -->
+                    <div class="col-md-4 col-sm-6 food-col" data-category="snacks">
+                         <div class="food-card wow fadeInUp" data-wow-delay="0.2s" data-name="Shawarma"
+                              data-price="70" data-desc="Kubbus / Grilled chicken / Sausage"
+                              data-image="images/pexels-cottonbro-studio-4427655.jpg">
+                              <div class="food-card-img">
+                                   <a href="images/pexels-cottonbro-studio-4427655.jpg" class="image-popup"
+                                        title="Shawarma">
+                                        <img src="images/pexels-cottonbro-studio-4427655.jpg" class="img-responsive"
+                                             alt="Shawarma">
+                                   </a>
+                                   <span class="food-tag">Bestseller</span>
+                              </div>
+                              <div class="food-card-body">
+                                   <div class="food-card-head">
+                                        <h3>Shawarma</h3>
+                                        <span class="food-price">&#8377;70</span>
                                    </div>
-                              </a>
-                         </div>
-                    </div>
-
-                    <div class="col-md-4 col-sm-6">
-                         <!-- MENU THUMB -->
-                         <div class="menu-thumb">
-                              <a href="images/menu-image2.jpg" class="image-popup" title="Self-made Salad">
-                                   <img src="images/menu-image2.jpg" class="img-responsive" alt="">
-
-                                   <div class="menu-info">
-                                        <div class="menu-item">
-                                             <h3>Self-made Salad</h3>
-                                             <p>Green / Fruits / Healthy</p>
-                                        </div>
-                                        <div class="menu-price">
-                                             <span>$18</span>
-                                        </div>
+                                   <p class="food-desc">Soft kubbus rolled with flame grilled chicken, sausage,
+                                        pickles and our garlic mayo.</p>
+                                   <p class="food-meta"><i class="fa fa-star"></i> 4.8 &nbsp;&middot;&nbsp; 10 mins
+                                        &nbsp;&middot;&nbsp; Non-veg</p>
+                                   <div class="food-actions">
+                                        <button type="button" class="food-btn food-btn-cart"><i
+                                                  class="fa fa-shopping-basket"></i>Add to cart</button>
+                                        <button type="button" class="food-btn food-btn-wa"><i
+                                                  class="fa fa-whatsapp"></i>Order</button>
                                    </div>
-                              </a>
+                              </div>
                          </div>
                     </div>
 
-                    <div class="col-md-4 col-sm-6">
-                         <!-- MENU THUMB -->
-                         <div class="menu-thumb">
-                              <a href="images/menu-image3.jpg" class="image-popup" title="Chinese Noodle">
-                                   <img src="images/menu-image3.jpg" class="img-responsive" alt="">
-
-                                   <div class="menu-info">
-                                        <div class="menu-item">
-                                             <h3>Chinese Noodle</h3>
-                                             <p>Pepper / Chicken / Vegetables</p>
-                                        </div>
-                                        <div class="menu-price">
-                                             <span>$34</span>
-                                        </div>
+                    <!-- FOOD ITEM -->
+                    <div class="col-md-4 col-sm-6 food-col" data-category="breakfast">
+                         <div class="food-card wow fadeInUp" data-wow-delay="0.3s" data-name="Spices Breakfast Platter"
+                              data-price="180" data-desc="Poached eggs / Sausage / Garlic toast"
+                              data-image="images/menu-image1.jpg">
+                              <div class="food-card-img">
+                                   <a href="images/menu-image1.jpg" class="image-popup"
+                                        title="Spices Breakfast Platter">
+                                        <img src="images/menu-image1.jpg" class="img-responsive"
+                                             alt="Spices Breakfast Platter">
+                                   </a>
+                              </div>
+                              <div class="food-card-body">
+                                   <div class="food-card-head">
+                                        <h3>Breakfast Platter</h3>
+                                        <span class="food-price">&#8377;180</span>
                                    </div>
-                              </a>
-                         </div>
-                    </div>
-
-                    <div class="col-md-4 col-sm-6">
-                         <!-- MENU THUMB -->
-                         <div class="menu-thumb">
-                              <a href="images/menu-image4.jpg" class="image-popup" title="Rice Soup">
-                                   <img src="images/menu-image4.jpg" class="img-responsive" alt="">
-
-                                   <div class="menu-info">
-                                        <div class="menu-item">
-                                             <h3>Rice Soup</h3>
-                                             <p>Green / Chicken</p>
-                                        </div>
-                                        <div class="menu-price">
-                                             <span>$28</span>
-                                        </div>
+                                   <p class="food-desc">Poached eggs, grilled sausages, buttered mushrooms, sauteed
+                                        spinach and garlic toast.</p>
+                                   <p class="food-meta"><i class="fa fa-star"></i> 4.7 &nbsp;&middot;&nbsp; 15 mins
+                                        &nbsp;&middot;&nbsp; Non-veg</p>
+                                   <div class="food-actions">
+                                        <button type="button" class="food-btn food-btn-cart"><i
+                                                  class="fa fa-shopping-basket"></i>Add to cart</button>
+                                        <button type="button" class="food-btn food-btn-wa"><i
+                                                  class="fa fa-whatsapp"></i>Order</button>
                                    </div>
-                              </a>
+                              </div>
                          </div>
                     </div>
 
-                    <div class="col-md-4 col-sm-6">
-                         <!-- MENU THUMB -->
-                         <div class="menu-thumb">
-                              <a href="images/menu-image5.jpg" class="image-popup" title="Project title">
-                                   <img src="images/menu-image5.jpg" class="img-responsive" alt="">
-
-                                   <div class="menu-info">
-                                        <div class="menu-item">
-                                             <h3>Deli Burger</h3>
-                                             <p>Beef / Fried Potatoes</p>
-                                        </div>
-                                        <div class="menu-price">
-                                             <span>$46</span>
-                                        </div>
+                    <!-- FOOD ITEM -->
+                    <div class="col-md-4 col-sm-6 food-col" data-category="breakfast">
+                         <div class="food-card wow fadeInUp" data-wow-delay="0.4s" data-name="Garden Fresh Salad"
+                              data-price="120" data-desc="Lettuce / Tomato / Bell pepper"
+                              data-image="images/menu-image2.jpg">
+                              <div class="food-card-img">
+                                   <a href="images/menu-image2.jpg" class="image-popup" title="Garden Fresh Salad">
+                                        <img src="images/menu-image2.jpg" class="img-responsive"
+                                             alt="Garden Fresh Salad">
+                                   </a>
+                                   <span class="food-tag veg">Pure Veg</span>
+                              </div>
+                              <div class="food-card-body">
+                                   <div class="food-card-head">
+                                        <h3>Garden Fresh Salad</h3>
+                                        <span class="food-price">&#8377;120</span>
                                    </div>
-                              </a>
-                         </div>
-                    </div>
-
-                    <div class="col-md-4 col-sm-6">
-                         <!-- MENU THUMB -->
-                         <div class="menu-thumb">
-                              <a href="images/menu-image6.jpg" class="image-popup" title="Project title">
-                                   <img src="images/menu-image6.jpg" class="img-responsive" alt="">
-
-                                   <div class="menu-info">
-                                        <div class="menu-item">
-                                             <h3>Big Flat Fried</h3>
-                                             <p>Pepper / Crispy</p>
-                                        </div>
-                                        <div class="menu-price">
-                                             <span>$30</span>
-                                        </div>
+                                   <p class="food-desc">Crisp lettuce, cherry tomato, cucumber and bell peppers with
+                                        a lemon honey dressing.</p>
+                                   <p class="food-meta"><i class="fa fa-star"></i> 4.5 &nbsp;&middot;&nbsp; 8 mins
+                                        &nbsp;&middot;&nbsp; Veg</p>
+                                   <div class="food-actions">
+                                        <button type="button" class="food-btn food-btn-cart"><i
+                                                  class="fa fa-shopping-basket"></i>Add to cart</button>
+                                        <button type="button" class="food-btn food-btn-wa"><i
+                                                  class="fa fa-whatsapp"></i>Order</button>
                                    </div>
-                              </a>
+                              </div>
                          </div>
                     </div>
 
+                    <!-- FOOD ITEM -->
+                    <div class="col-md-4 col-sm-6 food-col" data-category="main">
+                         <div class="food-card wow fadeInUp" data-wow-delay="0.2s" data-name="Hakka Noodles"
+                              data-price="140" data-desc="Wok tossed / Chicken / Vegetables"
+                              data-image="images/menu-image3.jpg">
+                              <div class="food-card-img">
+                                   <a href="images/menu-image3.jpg" class="image-popup" title="Hakka Noodles">
+                                        <img src="images/menu-image3.jpg" class="img-responsive" alt="Hakka Noodles">
+                                   </a>
+                                   <span class="food-tag">Chef's Pick</span>
+                              </div>
+                              <div class="food-card-body">
+                                   <div class="food-card-head">
+                                        <h3>Hakka Noodles</h3>
+                                        <span class="food-price">&#8377;140</span>
+                                   </div>
+                                   <p class="food-desc">Wok tossed noodles with shredded chicken, spring onion,
+                                        pepper and crunchy vegetables.</p>
+                                   <p class="food-meta"><i class="fa fa-star"></i> 4.6 &nbsp;&middot;&nbsp; 18 mins
+                                        &nbsp;&middot;&nbsp; Non-veg</p>
+                                   <div class="food-actions">
+                                        <button type="button" class="food-btn food-btn-cart"><i
+                                                  class="fa fa-shopping-basket"></i>Add to cart</button>
+                                        <button type="button" class="food-btn food-btn-wa"><i
+                                                  class="fa fa-whatsapp"></i>Order</button>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+
+                    <!-- FOOD ITEM -->
+                    <div class="col-md-4 col-sm-6 food-col" data-category="main">
+                         <div class="food-card wow fadeInUp" data-wow-delay="0.3s" data-name="Chicken Rice Soup"
+                              data-price="110" data-desc="Rice noodles / Chicken / Herbs"
+                              data-image="images/menu-image4.jpg">
+                              <div class="food-card-img">
+                                   <a href="images/menu-image4.jpg" class="image-popup" title="Chicken Rice Soup">
+                                        <img src="images/menu-image4.jpg" class="img-responsive"
+                                             alt="Chicken Rice Soup">
+                                   </a>
+                              </div>
+                              <div class="food-card-body">
+                                   <div class="food-card-head">
+                                        <h3>Chicken Rice Soup</h3>
+                                        <span class="food-price">&#8377;110</span>
+                                   </div>
+                                   <p class="food-desc">Steaming rice noodle soup with shredded chicken, fresh herbs
+                                        and fried shallots.</p>
+                                   <p class="food-meta"><i class="fa fa-star"></i> 4.4 &nbsp;&middot;&nbsp; 12 mins
+                                        &nbsp;&middot;&nbsp; Non-veg</p>
+                                   <div class="food-actions">
+                                        <button type="button" class="food-btn food-btn-cart"><i
+                                                  class="fa fa-shopping-basket"></i>Add to cart</button>
+                                        <button type="button" class="food-btn food-btn-wa"><i
+                                                  class="fa fa-whatsapp"></i>Order</button>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+
+                    <!-- FOOD ITEM -->
+                    <div class="col-md-4 col-sm-6 food-col" data-category="snacks">
+                         <div class="food-card wow fadeInUp" data-wow-delay="0.4s" data-name="Deli Burger &amp; Fries"
+                              data-price="190" data-desc="Grilled patty / Bacon / Fries"
+                              data-image="images/menu-image5.jpg">
+                              <div class="food-card-img">
+                                   <a href="images/menu-image5.jpg" class="image-popup" title="Deli Burger &amp; Fries">
+                                        <img src="images/menu-image5.jpg" class="img-responsive"
+                                             alt="Deli Burger and Fries">
+                                   </a>
+                                   <span class="food-tag">Combo</span>
+                              </div>
+                              <div class="food-card-body">
+                                   <div class="food-card-head">
+                                        <h3>Deli Burger &amp; Fries</h3>
+                                        <span class="food-price">&#8377;190</span>
+                                   </div>
+                                   <p class="food-desc">Char grilled patty with smoked bacon, cheddar and lettuce,
+                                        served with thick cut fries.</p>
+                                   <p class="food-meta"><i class="fa fa-star"></i> 4.9 &nbsp;&middot;&nbsp; 20 mins
+                                        &nbsp;&middot;&nbsp; Non-veg</p>
+                                   <div class="food-actions">
+                                        <button type="button" class="food-btn food-btn-cart"><i
+                                                  class="fa fa-shopping-basket"></i>Add to cart</button>
+                                        <button type="button" class="food-btn food-btn-wa"><i
+                                                  class="fa fa-whatsapp"></i>Order</button>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+
+                    <!-- FOOD ITEM -->
+                    <div class="col-md-4 col-sm-6 food-col" data-category="main">
+                         <div class="food-card wow fadeInUp" data-wow-delay="0.2s" data-name="Creamy Mushroom Pasta"
+                              data-price="170" data-desc="Pappardelle / Mushroom / Parmesan"
+                              data-image="images/menu-image6.jpg">
+                              <div class="food-card-img">
+                                   <a href="images/menu-image6.jpg" class="image-popup" title="Creamy Mushroom Pasta">
+                                        <img src="images/menu-image6.jpg" class="img-responsive"
+                                             alt="Creamy Mushroom Pasta">
+                                   </a>
+                                   <span class="food-tag veg">Pure Veg</span>
+                              </div>
+                              <div class="food-card-body">
+                                   <div class="food-card-head">
+                                        <h3>Creamy Mushroom Pasta</h3>
+                                        <span class="food-price">&#8377;170</span>
+                                   </div>
+                                   <p class="food-desc">Ribbon pasta in a butter cream sauce with mushrooms, crisp
+                                        sage and shaved parmesan.</p>
+                                   <p class="food-meta"><i class="fa fa-star"></i> 4.7 &nbsp;&middot;&nbsp; 18 mins
+                                        &nbsp;&middot;&nbsp; Veg</p>
+                                   <div class="food-actions">
+                                        <button type="button" class="food-btn food-btn-cart"><i
+                                                  class="fa fa-shopping-basket"></i>Add to cart</button>
+                                        <button type="button" class="food-btn food-btn-wa"><i
+                                                  class="fa fa-whatsapp"></i>Order</button>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+
+                    <!-- FOOD ITEM -->
+                    <div class="col-md-4 col-sm-6 food-col" data-category="snacks">
+                         <div class="food-card wow fadeInUp" data-wow-delay="0.3s" data-name="Peri Peri Fries"
+                              data-price="80" data-desc="Thick cut potato / Peri peri / Garlic dip"
+                              data-image="images/menu-image5.jpg">
+                              <div class="food-card-img">
+                                   <a href="images/menu-image5.jpg" class="image-popup" title="Peri Peri Fries">
+                                        <img src="images/menu-image5.jpg" class="img-responsive" alt="Peri Peri Fries">
+                                   </a>
+                                   <span class="food-tag veg">Pure Veg</span>
+                              </div>
+                              <div class="food-card-body">
+                                   <div class="food-card-head">
+                                        <h3>Peri Peri Fries</h3>
+                                        <span class="food-price">&#8377;80</span>
+                                   </div>
+                                   <p class="food-desc">Thick cut potatoes fried golden and tossed in peri peri
+                                        masala, with garlic dip.</p>
+                                   <p class="food-meta"><i class="fa fa-star"></i> 4.6 &nbsp;&middot;&nbsp; 10 mins
+                                        &nbsp;&middot;&nbsp; Veg</p>
+                                   <div class="food-actions">
+                                        <button type="button" class="food-btn food-btn-cart"><i
+                                                  class="fa fa-shopping-basket"></i>Add to cart</button>
+                                        <button type="button" class="food-btn food-btn-wa"><i
+                                                  class="fa fa-whatsapp"></i>Order</button>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+
+                    <!-- FOOD ITEM -->
+                    <div class="col-md-4 col-sm-6 food-col" data-category="breakfast">
+                         <div class="food-card wow fadeInUp" data-wow-delay="0.4s" data-name="Seasonal Fruit Bowl"
+                              data-price="100" data-desc="Fresh cut fruits / Honey / Mint"
+                              data-image="images/menu-image2.jpg">
+                              <div class="food-card-img">
+                                   <a href="images/menu-image2.jpg" class="image-popup" title="Seasonal Fruit Bowl">
+                                        <img src="images/menu-image2.jpg" class="img-responsive"
+                                             alt="Seasonal Fruit Bowl">
+                                   </a>
+                                   <span class="food-tag veg">Pure Veg</span>
+                              </div>
+                              <div class="food-card-body">
+                                   <div class="food-card-head">
+                                        <h3>Seasonal Fruit Bowl</h3>
+                                        <span class="food-price">&#8377;100</span>
+                                   </div>
+                                   <p class="food-desc">A bowl of fresh cut seasonal fruits finished with honey and
+                                        a sprig of mint.</p>
+                                   <p class="food-meta"><i class="fa fa-star"></i> 4.3 &nbsp;&middot;&nbsp; 5 mins
+                                        &nbsp;&middot;&nbsp; Veg</p>
+                                   <div class="food-actions">
+                                        <button type="button" class="food-btn food-btn-cart"><i
+                                                  class="fa fa-shopping-basket"></i>Add to cart</button>
+                                        <button type="button" class="food-btn food-btn-wa"><i
+                                                  class="fa fa-whatsapp"></i>Order</button>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
 
                </div>
           </div>
@@ -603,6 +778,37 @@
      </footer>
 
 
+     <!-- CART (demo - order is sent over WhatsApp) -->
+     <button type="button" class="cart-fab" id="cart-fab" aria-label="Open cart">
+          <i class="fa fa-shopping-basket"></i>
+          <span class="cart-count" id="cart-count">0</span>
+     </button>
+
+     <div class="cart-backdrop" id="cart-backdrop"></div>
+
+     <aside class="cart-drawer" id="cart-drawer" aria-label="Your order">
+          <div class="cart-header">
+               <h3>Your Order</h3>
+               <button type="button" class="cart-close" id="cart-close" aria-label="Close cart">&times;</button>
+          </div>
+
+          <div class="cart-body" id="cart-body"></div>
+
+          <div class="cart-footer">
+               <div class="cart-total">
+                    <span>Total</span>
+                    <strong id="cart-total">&#8377;0</strong>
+               </div>
+               <button type="button" class="cart-checkout" id="cart-checkout">
+                    <i class="fa fa-whatsapp"></i> Place order on WhatsApp
+               </button>
+               <p class="cart-note">Demo only &mdash; no payment is taken here.</p>
+          </div>
+     </aside>
+
+     <div class="cart-toast" id="cart-toast"></div>
+
+
      <!-- SCRIPTS -->
      <script src="js/jquery.js"></script>
      <script src="js/bootstrap.min.js"></script>
@@ -613,6 +819,7 @@
      <script src="js/smoothscroll.js"></script>
      <script src="js/custom.js"></script>
      <script src="js/rating.js"></script>
+     <script src="js/order.js"></script>
 
 </body>
 
